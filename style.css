@@ -1,0 +1,48 @@
+#proyectos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+}
+.project{
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+.toDoList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.todo{
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+h5{
+    margin: 3px;
+}
+.newToDo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+}
+input{
+    text-align: center;
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+    flex: start;
+    width: 200px;
+    text-align: center;
+}
+.new>*{
+    width: 100%;
+}
